@@ -1,0 +1,11 @@
+class Sample{
+    void num(){
+        System.out.println("sample program for Testing");
+    }
+}
+class Main{
+    public static void main(String args[]){
+        Sample s=new Sample();
+        s.num();
+    } 
+}
