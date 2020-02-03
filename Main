@@ -3,9 +3,16 @@ class Sample{
         System.out.println("sample program for Testing");
     }
 }
+class Test{
+     void num1(){
+System.out.println("Add one more class");
+}
+}
 class Main{
     public static void main(String args[]){
         Sample s=new Sample();
+        Test t=new Test();
         s.num();
+        t.num1();
     } 
 }
